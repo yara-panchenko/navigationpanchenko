@@ -12,14 +12,13 @@ namespace navigationpanchenko
     {
         public MainPage()
         {
-            Button tbl_btn1 = new Button { Text = "Entry/Editor" };
-            Button tbl_btn2 = new Button { Text = "ListView" };
-            Button tbl_btn3 = new Button { Text = "DataPicker" };
-            Button tbl_btn4 = new Button { Text = "TableView" };
-            Button tbl_btn5 = new Button { Text = "WebView" };
-            Button tbl_btn6 = new Button { Text = "Timer" };
-            Button tbl_btn7 = new Button { Text = "Page7" };
-            Button tbl_btn8 = new Button { Text = "Page8" };
+            Button tbl_btn1 = new Button { Text = "Esmaspaev" };
+            Button tbl_btn2 = new Button { Text = "Teisispaev" };
+            Button tbl_btn3 = new Button { Text = "Kolmapaev" };
+            Button tbl_btn4 = new Button { Text = "Neljapaev" };
+            Button tbl_btn5 = new Button { Text = "Reede" };
+            Button tbl_btn6 = new Button { Text = "Laupaev" };
+            Button tbl_btn7 = new Button { Text = "Puhapaev" };
             StackLayout st = new StackLayout();
             st.Children.Add(tbl_btn1);
             st.Children.Add(tbl_btn2);
@@ -28,7 +27,6 @@ namespace navigationpanchenko
             st.Children.Add(tbl_btn5);
             st.Children.Add(tbl_btn6);
             st.Children.Add(tbl_btn7);
-            st.Children.Add(tbl_btn8);
             Content = st;
             tbl_btn1.Clicked += tbl_btn_Clicked;
             tbl_btn2.Clicked += tbl_btn2_Clicked;
@@ -37,11 +35,6 @@ namespace navigationpanchenko
             tbl_btn5.Clicked += tbl_btn5_Clicked;
             tbl_btn6.Clicked += tbl_btn6_Clicked;
             tbl_btn7.Clicked += tbl_btn7_Clicked;
-            tbl_btn8.Clicked += tbl_btn8_Clicked;
-        }
-        private async void tbl_btn8_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Page8());
         }
         private async void tbl_btn7_Clicked(object sender, EventArgs e)
         {

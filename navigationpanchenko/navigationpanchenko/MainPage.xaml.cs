@@ -13,7 +13,7 @@ namespace navigationpanchenko
         public MainPage()
         {
             Button tbl_btn1 = new Button { Text = "Esmaspaev" };
-            Button tbl_btn2 = new Button { Text = "Teisispaev" };
+            Button tbl_btn2 = new Button { Text = "Teisipaev" };
             Button tbl_btn3 = new Button { Text = "Kolmapaev" };
             Button tbl_btn4 = new Button { Text = "Neljapaev" };
             Button tbl_btn5 = new Button { Text = "Reede" };
